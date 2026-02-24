@@ -1,0 +1,67 @@
+PROMPT CHATGPT :
+1. Data nilai siswa disimpan dalam sebuah rak fisik yang tersusun rapat. Perhatikan pola penyimpanan pada gambar di bawah ini untuk memahami bagaimana kelompok siswa dipisahkan. Input:
+
+Jumlah total data (N).
+Deret nilai (n1, n2, …, n).
+Kode kelompok siswa
+Tugas Buatlah program yang mampu menentukan total nilai hanya untuk kelompok yang diminta.
+
+2. Kode kelompok siswa apa maksudny a
+3. kitaga kelompkkan berdasarkan jenis kelamin ?
+4.   berdasarkan jenis kelamin  buat 
+5. ini template nya :public class Driver2 {
+    
+}
+6. perlunya dbuat  package driver; di paling atas? 
+7. menurut kamu disarabnkan pake atau gaa
+8. cek apakah kode saya ini benar:  package driver;
+
+import java.util.Scanner;
+
+public class Driver2 {
+    public static void main(String[] args) {
+         Scanner input = new Scanner(System.in);
+
+        System.out.print("Masukkan jumlah siswa: ");
+        int N = input.nextInt();
+
+        char[] jk = new char[N];
+        int[] nilai = new int[N];
+
+        for (int i = 0; i < N; i++) {
+            System.out.println("\nSiswa ke-" + (i + 1));
+            System.out.print("Jenis Kelamin (L/P): ");
+            jk[i] = input.next().charAt(0);
+
+            System.out.print("Nilai: ");
+            nilai[i] = input.nextInt();
+        }
+
+        System.out.print("\nKode kelompok (1 = Laki-laki, 2 = Perempuan): ");
+        int kode = input.nextInt();
+
+        int total = 0;
+
+        for (int i = 0; i < N; i++) {
+            if (kode == 1 && (jk[i] == 'L' || jk[i] == 'l')) {
+                total += nilai[i];
+            } 
+            else if (kode == 2 && (jk[i] == 'P' || jk[i] == 'p')) {
+                total += nilai[i];
+            }
+        }
+
+        System.out.println("Total nilai kelompok " + kode + " = " + total);
+
+        input.close();
+    }
+    }
+9. berart sudah benar? sekaran bagaimana carameng compileny a
+10. 
+C:\Users\Asus\OneDrive\Dokumen\GitHub\quiz1-pbo-MargarethSitompul>javac driver/Driver2.java
+error: file not found: driver\Driver2.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+
+C:\Users\Asus\OneDrive\Dokumen\GitHub\quiz1-pbo-MargarethSitompul>
+
