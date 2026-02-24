@@ -1,0 +1,16 @@
+PROMOT CHATGPT:
+1. PEMBAYRAN BUA OTOMATIS DARI UANG  KULIAH JADI DIBABYAR DIAWAL ULAN SAMA DENGAN BIAYA KULIAH DAN ASRAMA BUALAN ITU DI INCLUDE KANN
+2. SEKARANG BUAT LAH CODENYA DALAM JAVA  YAN MEMILIKI TEMPLATE SEBAGAI BERIKUT : public class Driver3 {
+    
+}
+3. CONTOH INPUT 
+4. BUATLAH CARA ME-RUN KANNYA 
+5. 
+C:\Users\Asus\OneDrive\Dokumen\GitHub\quiz1-pbo-MargarethSitompul>javac Driver3.java
+error: file not found: Driver3.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+
+C:\Users\Asus\OneDrive\Dokumen\GitHub\quiz1-pbo-MargarethSitompul>
+6. C:\Users\Asus\OneDrive\Dokumen\GitHub\quiz1-pbo-MargarethSitompul\src>cd src
+The system cannot find the path specified.
